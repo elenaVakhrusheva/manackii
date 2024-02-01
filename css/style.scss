@@ -236,6 +236,7 @@ h1 {
 .rate-col__price-currency,
 .rate-col__price-period {
   cursor: pointer;
+  user-select: none;
 }
 
 .anim-load {
