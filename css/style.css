@@ -312,7 +312,7 @@ h1 {
   font-size: 13px;
   line-height: 128.023%;
   text-align: left;
-  list-style-image: url(img/list-marker.svg);
+  list-style-image: url(../img/list-marker.svg);
   margin: 15px 0; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/frontend\/manackii\/css\/style\.scss}line{font-family:\00003297}}
