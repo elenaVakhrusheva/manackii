@@ -14,7 +14,7 @@
 </head>
 <body>
 	<div class="container-fluid ">
-		<nav class="navbar navbar-expand-lg bg-body-tertiary">
+		<nav class="navbar navbar-expand-lg bg-body-tertiary navbar-light ">
 			<div class="container-fluid">
 				<a class="navbar-brand logo" href="#">
 					<img src="/img/logo.svg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top logo-name">Test Task</a>
@@ -50,17 +50,24 @@
 			</div>
 		</nav>
 		
-		 
+		<div class="bg-img-title">
+			<img src="/img/Vector384.svg" alt="" class="bg-img-title__1" >
+			<img src="/img/Vector385.svg" alt="" class="bg-img-title__2" >
+			<img src="/img/Vector383.svg" alt=""class="bg-img-title__3" >
+			
+		</div> 
+
 		<h1>Instantly Connect with Your Leads</h1>
 
 		<div class="container text-center">
 			<div class="rates">
-				<div class="rate-col rate-col-1">
+				<div class="rate-col rate-col-1 anim-load fadeIn">
 					 <ul class="price"> 
 						<li class="rate-col__name">Basic Survival</li>
 						<li class="rate-col__price">
-							<sup>$</sup>
-							30 <sub>/Months</sub>
+							<sup><span class="rate-col__price-currency">$</span></sup>
+							<span class="rate-col__price-value">30</span> 
+							<sub><span class="rate-col__price-period">/Months</span></sub>
 						</li>
 						<hr>
 						<li class="rate-col__desc">Get Torque’s basic plan to optimise you lead generation process.</li>
@@ -78,7 +85,7 @@
 					</ul>
 					<a href="#" class="btn-select">Start Free Trial</a>
 				</div>
-					<div class="rate-col rate-col-2">
+				<div class="rate-col rate-col-2 anim-load fadeIn">
 					 <ul class="price"> 
 						<li class="rate-col__name">Mission Professional</li>
 						<li class="rate-col__price">
@@ -105,7 +112,7 @@
 					<a href="#" class="btn-select">Start Free Trial
 					<span class="icon-radius"><i class="fa fa-chevron-right" aria-hidden="true"></i></span></a>
 				</div>
-					<div class="rate-col rate-col-3">
+					<div class="rate-col rate-col-3 anim-load fadeIn">
 					 <ul class="price"> 
 						<li class="rate-col__name">Rocketship Premium</li>
 						<li class="rate-col__price">
@@ -135,7 +142,7 @@
 		</div>
 
 	</div>
-
+	<script src="/js/index.js"></script>
 	<script src="/js/bootstrap.min.js"></script>
 </body>
 </html>
