@@ -326,16 +326,27 @@ h1 {
   background: #6a994e;
   box-shadow: 0px 6px 14px 0px rgba(0, 0, 0, 0.1);
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .icon-radius {
   background: rgba(255, 255, 255, 0.6);
-  border-radius: 50%;
   display: inline-block;
-  padding: 7px 16px;
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  position: relative;
+  margin-left: 10px;
 
   & .fa-chevron-right {
     color: #bc4749;
+    font-size: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 }
 
@@ -371,6 +382,18 @@ h1 {
     border-radius: 10px;
     text-align: center;
   }
+  .rates {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .rate-col-1,
+  .rate-col-3 {
+    left: auto;
+    margin-left: auto;
+    margin-right: auto;
+    transform: none;
+  }
 }
 @media only screen and (max-width: 768px) {
   .bg-img-title {
@@ -379,19 +402,8 @@ h1 {
 }
 
 @media only screen and (max-width: 600px) {
-  .rates {
-    flex-wrap: wrap;
-    flex-direction: column;
-  }
   .rate-col {
     margin: 20px 0;
     padding: 37px 30px;
-  }
-  .rate-col-1,
-  .rate-col-3 {
-    left: auto;
-    margin-left: auto;
-    margin-right: auto;
-    transform: none;
   }
 }

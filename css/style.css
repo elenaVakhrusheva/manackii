@@ -344,61 +344,75 @@ h1 {
   background: #6a994e;
   -webkit-box-shadow: 0px 6px 14px 0px rgba(0, 0, 0, 0.1);
           box-shadow: 0px 6px 14px 0px rgba(0, 0, 0, 0.1);
-  cursor: pointer; }
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/frontend\/manackii\/css\/style\.scss}line{font-family:\00003331}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/frontend\/manackii\/css\/style\.scss}line{font-family:\00003334}}
 .icon-radius {
   background: rgba(255, 255, 255, 0.6);
-  border-radius: 50%;
   display: inline-block;
-  padding: 7px 16px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/frontend\/manackii\/css\/style\.scss}line{font-family:\00003337}}
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  position: relative;
+  margin-left: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/frontend\/manackii\/css\/style\.scss}line{font-family:\00003343}}
   .icon-radius .fa-chevron-right {
-    color: #bc4749; }
+    color: #bc4749;
+    font-size: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%); }
 
 @media only screen and (max-width: 988px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/frontend\/manackii\/css\/style\.scss}line{font-family:\00003343}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/frontend\/manackii\/css\/style\.scss}line{font-family:\00003354}}
   .navbar-nav {
     gap: 10px;
     padding-bottom: 20px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/frontend\/manackii\/css\/style\.scss}line{font-family:\00003347}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/frontend\/manackii\/css\/style\.scss}line{font-family:\00003358}}
   .navbar a {
     color: #000; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/frontend\/manackii\/css\/style\.scss}line{font-family:\00003350}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/frontend\/manackii\/css\/style\.scss}line{font-family:\00003361}}
   .btn-sign-in {
     margin-top: 15px;
     margin-bottom: 20px;
     margin-left: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/frontend\/manackii\/css\/style\.scss}line{font-family:\00003355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/frontend\/manackii\/css\/style\.scss}line{font-family:\00003366}}
   .rate-col {
     margin: 20px 0;
     padding: 37px 40px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/frontend\/manackii\/css\/style\.scss}line{font-family:\00003359}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/frontend\/manackii\/css\/style\.scss}line{font-family:\00003370}}
   .btn-select {
     padding: 10px;
     font-size: 13px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/frontend\/manackii\/css\/style\.scss}line{font-family:\00003364}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/frontend\/manackii\/css\/style\.scss}line{font-family:\00003375}}
   .icon-radius {
     padding: 4px 10px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/frontend\/manackii\/css\/style\.scss}line{font-family:\00003367}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/frontend\/manackii\/css\/style\.scss}line{font-family:\00003378}}
   .navbar-collapse {
     margin-top: 20px;
     background: #ffffffe3;
     padding: 20px 15px;
     border-radius: 10px;
-    text-align: center; } }
-@media only screen and (max-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/frontend\/manackii\/css\/style\.scss}line{font-family:\00003376}}
-  .bg-img-title {
-    display: none; } }
-@media only screen and (max-width: 600px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/frontend\/manackii\/css\/style\.scss}line{font-family:\00003382}}
+    text-align: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/frontend\/manackii\/css\/style\.scss}line{font-family:\00003385}}
   .rates {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
@@ -406,11 +420,6 @@ h1 {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/frontend\/manackii\/css\/style\.scss}line{font-family:\00003386}}
-  .rate-col {
-    margin: 20px 0;
-    padding: 37px 30px; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/frontend\/manackii\/css\/style\.scss}line{font-family:\00003390}}
   .rate-col-1,
@@ -420,5 +429,14 @@ h1 {
     margin-right: auto;
     -webkit-transform: none;
             transform: none; } }
+@media only screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/frontend\/manackii\/css\/style\.scss}line{font-family:\00003399}}
+  .bg-img-title {
+    display: none; } }
+@media only screen and (max-width: 600px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/frontend\/manackii\/css\/style\.scss}line{font-family:\00003405}}
+  .rate-col {
+    margin: 20px 0;
+    padding: 37px 30px; } }
 
 /*# sourceMappingURL=style.css.map */
