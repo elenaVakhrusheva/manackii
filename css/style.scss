@@ -2,10 +2,6 @@
   box-sizing: border-box;
 }
 
-.container {
-  max-width: 1306px;
-}
-
 body {
   border-radius: 12px;
   background: linear-gradient(153deg, #36603e 35.82%, #1e262c 107.75%);
@@ -14,6 +10,13 @@ body {
     0px 23.115px 240.782px 0px rgba(0, 0, 0, 0.05);
   font-family: "Inter", sans-serif;
   color: #fff;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1306px;
+  margin: 0 auto;
+  height: auto;
 }
 
 .navbar {
