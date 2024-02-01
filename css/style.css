@@ -220,7 +220,7 @@ h1 {
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/frontend\/manackii\/css\/style\.scss}line{font-family:\00003191}}
       .rate-col:nth-child(even) a.btn-select:hover {
         background: #6a994e;
-        border: #6a994e;
+        border: 0.864px solid #6a994e;
         color: #fff; }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/frontend\/manackii\/css\/style\.scss}line{font-family:\00003199}}
   .rate-col__name {
