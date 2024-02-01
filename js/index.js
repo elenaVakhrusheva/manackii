@@ -1,10 +1,10 @@
-const priceCurrency = document.querySelectorAll('.rate-col__price-currency');
-const priceValue = document.querySelectorAll('.rate-col__price-value');
-const pricePeriod = document.querySelectorAll('.rate-col__price-period');
+const priceCurrency = document.querySelectorAll('.js-price-curency');
+const priceValue = document.querySelectorAll('.js-price-value');
+const pricePeriod = document.querySelectorAll('.js-price-period');
 const tariff = document.querySelectorAll('.rate-col');
 
 const dollarRate = 90;
-/*const euroRate = 95;*/
+
 
 priceCurrency.forEach(currency => {
   currency.addEventListener('click', function() {
